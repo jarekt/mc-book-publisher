@@ -13,6 +13,7 @@
     background-image:url("../imgs/book.png");
     white-space: pre-wrap;
     word-spacing: 4px;
+    letter-spacing: normal;
     image-rendering: pixelated;
     font-smooth: never; /* non standard */
     -webkit-font-smoothing:none;
