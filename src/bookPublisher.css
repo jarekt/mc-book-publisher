@@ -50,6 +50,14 @@
 .mcBookBack:hover {
     background-image:url("../imgs/backhl.png");
 }
+.mcBookAuthor {
+    color: #545454;
+}
+.mcBookCentering {
+    display: block;
+    text-align: center;
+    user-select: none;
+}
 
 @font-face {
     font-family: 'Ifix';
