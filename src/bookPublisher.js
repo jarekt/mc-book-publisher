@@ -86,9 +86,19 @@ class McBookPublisher
             {
                 let btnBack = document.createElement('span');
                 btnBack.className = "mcBookBack";
+                btnBack.onclick = function ()
+                {
+                    thisInstance.books[i].pagePointer--;
+                    thisInstance.updatePage(i);
+                };
                 footer.appendChild(btnBack);
                 let btnNext = document.createElement('span');
                 btnNext.className = "mcBookNext";
+                btnNext.onclick = function ()
+                {
+                    thisInstance.books[i].pagePointer++;
+                    thisInstance.updatePage(i);
+                };
                 footer.appendChild(btnNext);
             }
             bookHtml.appendChild(footer);
@@ -115,12 +125,15 @@ class McBookPublisher
         let publisherArea = document.getElementById(this.id);
 
         // set header
-        let headerHtml = publisherArea.getElementsByClassName('mcBookHeader');
-        headerHtml[bookNum].innerHTML = "Page " + book.pagePointer + " of " + book.pages.length;
+        let headerHtml = publisherArea.getElementsByClassName('mcBookHeader')[bookNum];
+        headerHtml.innerHTML = "Page " + book.pagePointer + " of " + book.pages.length;
         if (book.pagePointer == 0)
         {
-            headerHtml[bookNum].style['color'] = '#ffffff00';
-            headerHtml[bookNum].style['user-select'] = 'none';
+            headerHtml.style['color'] = '#ffffff00';
+        }
+        else
+        {
+            headerHtml.style['color'] = '';
         }
 
         // set text
@@ -134,8 +147,28 @@ class McBookPublisher
             text = book.pages[book.pagePointer -1];
         }
 
-        let texthtml = publisherArea.getElementsByClassName('mcBookText');
-        texthtml[bookNum].innerHTML = text;
+        let textHtml = publisherArea.getElementsByClassName('mcBookText')[bookNum];
+        textHtml.innerHTML = text;
+
+        let btnBack = publisherArea.getElementsByClassName('mcBookBack')[bookNum];
+        let btnNext = publisherArea.getElementsByClassName('mcBookNext')[bookNum];
+        if (book.pagePointer == 0)
+        {
+            btnBack.style['display'] = "none";
+        }
+        else
+        {
+            btnBack.style['display'] = "block";
+        }
+
+        if (book.pagePointer == book.pages.length)
+        {
+            btnNext.style['display'] = "none";
+        }
+        else
+        {
+            btnNext.style['display'] = "block";
+        }
 
         // display/hide header & buttons
         // if page 0 -> dont display header or left arrow
