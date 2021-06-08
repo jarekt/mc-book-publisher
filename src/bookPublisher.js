@@ -46,7 +46,6 @@ class McBookPublisher
         this.buildHtml();
     }
     // parse -> create multiple books
-    // foreach book build their html & attach callbacks
 
     /**
      * Parses this.source into books
@@ -127,16 +126,11 @@ class McBookPublisher
         // set header
         let headerHtml = publisherArea.getElementsByClassName('mcBookHeader')[bookNum];
         headerHtml.innerHTML = "Page " + book.pagePointer + " of " + book.pages.length;
-        if (book.pagePointer == 0)
-        {
-            headerHtml.style['color'] = '#ffffff00';
-        }
-        else
-        {
-            headerHtml.style['color'] = '';
-        }
+        headerHtml.style['color'] = book.pagePointer == 0
+                                  ? '#ffffff00' : '';
 
         // set text
+        let textHtml = publisherArea.getElementsByClassName('mcBookText')[bookNum];
         let text;
         if (book.pagePointer == 0)
         {
@@ -147,31 +141,16 @@ class McBookPublisher
             text = book.pages[book.pagePointer -1];
         }
 
-        let textHtml = publisherArea.getElementsByClassName('mcBookText')[bookNum];
         textHtml.innerHTML = text;
 
+        // show/hide buttons
         let btnBack = publisherArea.getElementsByClassName('mcBookBack')[bookNum];
         let btnNext = publisherArea.getElementsByClassName('mcBookNext')[bookNum];
-        if (book.pagePointer == 0)
-        {
-            btnBack.style['display'] = "none";
-        }
-        else
-        {
-            btnBack.style['display'] = "block";
-        }
+        
+        btnBack.style['display'] = book.pagePointer == 0
+                                 ? 'none' : 'block';
 
-        if (book.pagePointer == book.pages.length)
-        {
-            btnNext.style['display'] = "none";
-        }
-        else
-        {
-            btnNext.style['display'] = "block";
-        }
-
-        // display/hide header & buttons
-        // if page 0 -> dont display header or left arrow
-        // if page max dont display right arrow
+        btnNext.style['display'] = book.pagePointer == book.pages.length
+                                 ? 'none' : 'block';
     }
 }
