@@ -7,11 +7,7 @@ class McBook
         this.pagePointer = 0;
         this.pages = [];
     }
-    
-    /**
-     * Used for adding pages
-     * @param {string} pageText 
-     */
+
     appendPage(pageText)
     {
         this.pages.push(pageText);
@@ -37,25 +33,66 @@ class McBookPublisher
         this.bLocations = options.displayLocations; // TODO: implment
         // TODO: add option for different parsers?
         this.books = [];
+        this.thisScript = document.currentScript // reference to the current script for building the html
     }
 
 
-    init()
+    async init()
     {
-        this.mcWorldMinerParse()
-        this.buildHtml();
+        fetch(this.src)
+        .then(response =>
+        {
+            if (!response.ok)
+            {
+                throw new Error("Unable to fetch book source file: " + this.src)
+            }
+            else
+            {
+                return response.text()
+            }
+        })
+        .then(text =>
+        {
+            this.mcWorldMinerParse(text);
+            this.buildHtml();
+        })
+        .catch(error => console.error(error));
     }
-    // parse -> create multiple books
 
     /**
      * Parses this.source into books
+     * @param {string} text to be parsed
      */
-    mcWorldMinerParse()
+    mcWorldMinerParse(text)
     {
-        console.log("pain");
+        let pp = 0; // parsing pointer
+
+        
+        console.log(text);
+        console.log('nic');
+
         this.books.push(new McBook("Reebook", "Firetrash42"));
+        this.books[this.books.length -1].appendPage("life is so much pain");
+        this.books.push(new McBook("History of pain", "Prokeš"));
         this.books[this.books.length -1].appendPage("cocking reee\nfuken Špak");
-        console.log(this.books);
+        this.books[this.books.length -1].appendPage("I hate everything");
+        this.books[this.books.length -1].appendPage(`#269 #265 #260 #255
+#274 #367 #101 #106
+#278 #371 #376 #025
+#282 #195 #048 #019
+#287 #217 #087 #093
+#291 #223 #186 #180
+#295 #240 #236 #231`);
+        this.books[this.books.length -1].appendPage(` GIANT FUCKING HOLE
+===================
+a community slave labour project
+
+What? - Let's build i big fucking chunk sized hole all the way down to bedrock.
+
+Why? - Just for the fuck of it.
+
+        Turn the page`);
+
     }
 
     /**
@@ -103,8 +140,7 @@ class McBookPublisher
             bookHtml.appendChild(footer);
             publisherArea.appendChild(bookHtml);
         }
-        let curScript = document.currentScript;
-        curScript.parentElement.appendChild(publisherArea);
+        this.thisScript.parentElement.appendChild(publisherArea);
 
         // update pages
         for (let i = 0; i < this.books.length; i++)
