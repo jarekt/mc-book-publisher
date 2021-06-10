@@ -26,4 +26,5 @@ This work is licensed under the MIT license with the exception of the contents o
 - [ ] make error handling more consistent
 - [ ] possibly fix bad line wrapping that occours from time to time (not sure how)
 - [ ] add demonstration
+- [ ] fix position
 - [x] add a parser for Neurochitin's mc-world-miner
