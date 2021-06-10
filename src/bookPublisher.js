@@ -176,6 +176,7 @@ class McBookPublisher
                     }
                     if (p >= text.length)
                     {
+                        this.books[this.books.length -1].appendPage(pageText);
                         state = pStates['exit'];
                         break;
                     }
