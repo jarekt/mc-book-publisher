@@ -233,7 +233,7 @@ class McBookPublisher
             bookHtml.appendChild(footer);
             publisherArea.appendChild(bookHtml);
         }
-        this.thisScript.parentElement.appendChild(publisherArea);
+        this.thisScript.parentElement.insertBefore(publisherArea, this.thisScript.nextElementSibling);
 
         // update pages
         for (let i = 0; i < this.books.length; i++)
