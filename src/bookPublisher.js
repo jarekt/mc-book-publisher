@@ -185,6 +185,7 @@ class McBookPublisher
                 }
             }
         }
+        console.log("finished parsing " + this.src);
     }
 
     /**
