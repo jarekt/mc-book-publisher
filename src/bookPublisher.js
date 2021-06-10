@@ -262,7 +262,7 @@ class McBookPublisher
         let text;
         if (book.pagePointer == 0)
         {
-            text = '<span class="mcBookCentering">\n\n' + book.name + "\n\n" + '<span class="mcBookAuthor">' + book.author + '</span></span>';
+            text = '<span class="mcBookCentering">\n\n' + book.name + "\n\n" + '<span class="mcBookAuthor">' + 'by ' + book.author + '</span></span>';
         }
         else
         {
