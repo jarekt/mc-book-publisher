@@ -19,12 +19,16 @@ Mc Book Publisher creates an interactive visulisation of minecraft books on the 
     }).init();
 </script>
 ```
+## Demo
+
+You can see the script in action for example [here](http://lanreee.wz.cz/#books)
+
 ## License
 This work is licensed under the MIT license with the exception of the contents of the `imgs` and `fonts` folders.
 
 ## 2DO
 - [ ] make error handling more consistent
 - [ ] possibly fix bad line wrapping that occours from time to time (not sure how)
-- [ ] add demonstration
 - [ ] add & display book locations
+- [x] add demo
 - [x] add a parser for Neurochitin's mc-world-miner
