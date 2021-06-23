@@ -1,4 +1,8 @@
 # Mc Book Publisher
+![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/jarekt/mc-book-publisher)
+![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hd/jarekt/mc-book-publisher)
+[![GitHub license](https://img.shields.io/github/license/jarekt/mc-book-publisher)](https://github.com/jarekt/mc-book-publisher/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/jarekt/mc-book-publisher)](https://github.com/jarekt/mc-book-publisher/issues)
 
 Mc Book Publisher creates an interactive visulisation of minecraft books on the web using javascript. 
 
