@@ -1,5 +1,5 @@
 .mcBook {
-    font-family: 'Ifix', 'F77 Minecraft';
+    font-family: 'F77 Minecraft';
     font-style: normal;
     font-display: swap;
     font-size:24px;
@@ -60,15 +60,6 @@
     user-select: none;
 }
 
-@font-face {
-    font-family: 'Ifix';
-    src: url('../fonts/Ifix.woff2') format('woff2'),
-        url('../fonts/Ifix.woff') format('woff'),
-        url('../fonts/Ifix.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 @font-face {
     font-family: 'F77 Minecraft';
     src: url('../fonts/F77-Minecraft.woff2') format('woff2'),
