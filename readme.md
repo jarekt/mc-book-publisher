@@ -36,7 +36,10 @@ This work is licensed under the MIT license with the exception of the contents o
 
 ## 2DO
 - [ ] make error handling more consistent
-- [ ] possibly fix bad line wrapping that occours from time to time (not sure how)
 - [ ] add & display book locations
 - [x] add demo
 - [x] add a parser for Neurochitin's mc-world-miner
+
+## Known Issues
+- bad line wrapping that occours from time to time (is this even possible to fix? this arises directly from how fonts are rendered differently in the web browser than in minecraft)
+- font appearing blurry when `margin: auto` is used at certain resolutions (this cannot be fixed unless we use some sort of crazy js hack that would center the div less precisely than css does) + it's not even particularly noticable
