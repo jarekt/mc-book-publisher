@@ -1,0 +1,348 @@
+=====================================
+Book "Map IDs" by Skloomax
+(content hash = 7544484229697805060)
+Found 1x minecraft:written_book (item ID 1001, generation 0) in slot 24 of block entity minecraft:chest at x:-246, y:76, z:-32
+Found 1x minecraft:written_book (item ID 1014, generation 1) in slot None of block entity minecraft:lectern at x:-237, y:67, z:-27
+Found 1x minecraft:written_book (item ID 1780, generation 1) in slot None of block entity minecraft:lectern at x:1010, y:66, z:-215
+
+--- Page 0 ---
+#269 #265 #260 #255
+#274 #367 #101 #106
+#278 #371 #376 #025
+#282 #195 #048 #019
+#287 #217 #087 #093
+#291 #223 #186 #180
+#295 #240 #236 #231
+--- Page 1 ---
+#250 #341 #349
+#246 #337 #333
+#036 #325 #329
+#032 #357 #361
+#097 #321 #317
+#190 #309 #313
+#227 #300 #304
+=====================================
+Book "BIG F#CKING HOLE" by Firetrash42
+(content hash = 8008277620673401815)
+Found 1x minecraft:written_book (item ID 1092, generation 0) in slot None of block entity minecraft:lectern at x:-194, y:64, z:-81
+Found 1x minecraft:written_book (item ID 1771, generation 1) in slot None of block entity minecraft:lectern at x:992, y:66, z:-225
+
+--- Page 0 ---
+ GIANT F#CKING HOLE
+===================
+a community slave labour project
+
+What? - Let's build a big f#cking chunk sized hole all the way down to bedrock.
+
+Why? - Just for the f#ck of it.
+
+         Turn the page
+--- Page 1 ---
+Rules:
+1. Don't dig into the sides
+2. This is an unpaid slave labour project so put anything you mine into the chests
+3. Don't steal from chests
+4. have fun or nah
+
+
+Turn the page for introduction
+=====================================
+Book "Coordinates" by Skloomax
+(content hash = 1067487812174694143)
+Found 1x minecraft:written_book (item ID 1109, generation 0) in slot None of block entity minecraft:lectern at x:-99, y:71, z:-20
+Found 1x minecraft:written_book (item ID 1773, generation 1) in slot None of block entity minecraft:lectern at x:992, y:66, z:-213
+
+--- Page 0 ---
+THIS BOOK HAS BEEN DEPRECATED.
+
+REFER TO THE ONLINE COORDINATES DATABASE INSTEAD.
+
+The book's last state  can be viewed on the following pages.
+--- Page 1 ---
+Maxa          350  -500
+Slime swamp 1500    50
+stronghold 2400 -500
+coral reef 1650  1450
+des village  750  2800
+ice biom    2800 -4800
+monument -1900      0
+monument -1250  -400
+monument -1700 -1900
+pl. is. hq        0  3000
+monument    150  2700
+mesa       -3800   200
+shrooms  -5400   500
+concrete  -500 1850
+--- Page 2 ---
+Prokop     -650 -1500
+hellscape  -900    500
+shrooms     800 -3900
+coral reef  900  1250
+monument    700  1300
+monument    850  1600
+monument    300  1700
+pillagers   -400  1000
+monument  -300   2700
+monument  -250   2300
+monument -1250  2250
+monument    100  2200
+corals    -3100 -1400
+ice biom   3700 -5400
+=====================================
+Book "(None)" by None
+(content hash = 4586181454701671013)
+Found 1x minecraft:writable_book (item ID 1207, generation 0) in slot None of block entity minecraft:lectern at x:-105, y:63, z:36
+
+--- Page 0 ---
+To: EJDMOVO DOUPE
+
+Turn right and follow the coastline. Your destination is located in a sandy bay not far away.
+--- Page 1 ---
+To: SCUM'S RETREAT
+Owner: JAREKT
+
+Turn right and follow the coastline until you encounter a small beacon, then turn right. The shed is located behind some trees.
+--- Page 2 ---
+To: HELLSCAPE
+Owner: ALEXA
+
+Position your ship perfectly south-south-west and sail in a straight line. Upon encountering a savanna, turn right and follow the coastline. Sail up the first river you encounter.
+--- Page 3 ---
+To: PROKOP'S VILLAGE
+
+Turn right and follow the coastline for a REALLY long time. Refer to the public map if lost. Upon encountering a small beacon, sail up the adjacent river.
+--- Page 4 ---
+To: PLEASURE ISLAND
+Owner: JAREKT
+
+Position your ship perfectly south and sail some 2 kilometers. A tiny island should provide you with further directions.
+--- Page 5 ---
+To: SLIME SWAMP
+Owner: <PUBLIC>
+
+Turn left and follow the coastline until you encounter a beacon (WIP). Upon doing so, sail north. There is a shed at the destination.
+--- Page 6 ---
+To: MAJKSA
+
+Turn left, follow the coastline for a bit, then sail up the first river you encounter. Keep on its right side until you arrive.
+=====================================
+Book "Auto Brewer" by Firetrash42
+(content hash = 2730975008772089797)
+Found 1x minecraft:written_book (item ID 1308, generation 0) in slot None of block entity minecraft:lectern at x:-15, y:61, z:2981
+
+--- Page 0 ---
+This is my automatic potion brewer designed by me.
+yes yes
+
+Usage:
+1. select modifiers
+2. select potion
+3. wait for your potion to be dropped into the output chest
+4. repeat (if u want)
+
+         turn the page
+--- Page 1 ---
+Dont queue up multiple potions, the machine will break!
+Its single batch only.
+
+
+If you want to occasionally use the machine, consider donating ingredients.
+
+potions in the chest are free
+               by Jarek
+=====================================
+Book "Skeleton outpost" by Firetrash42
+(content hash = 2875462387329748892)
+Found 1x minecraft:written_book (item ID 1772, generation 1) in slot None of block entity minecraft:lectern at x:992, y:66, z:-223
+
+--- Page 0 ---
+Welcome to skeleton outpost, the only civilized place with a skeleton spawner. Feel free to spend a night here, take some melons or use the furnaces (use your own fuel!). Please dont take anything from the chests. We have the barrel pile for guests.
+         Turn the page
+--- Page 1 ---
+To get to the spawner / xp farm follow the wooden / cobblestone objects in the cave system. DONT CHANGE OR DESTROY ANYTHING!!!
+
+If you want to donate to the outpost leave your donation in one of the barrels. If you want to leave a message, just leave a sign. Thx for ur time.
+=====================================
+Book "Cataclysm losses" by Firetrash42
+(content hash = 4257706125623348133)
+Found 1x minecraft:written_book (item ID 1774, generation 1) in slot None of block entity minecraft:lectern at x:992, y:66, z:-215
+
+--- Page 0 ---
+CATACLYSM CASUALITIES
+30/4/20
+===================
+Pleasure HQ:
+- pleasure mobile
+- birb
+- two mickas
+- Zmrdex liĹˇka
+- zmrdex & the iron slaves
+- maps
+- auto brewer help
+- cow, bees & fishes
+--- Page 1 ---
+Nether hub:
+- dva gej zmrdexovĂ© v lodi
+===================Skeleton outpost:
+- kitty
+- dvÄ› svinÄ›
+===================
+Alexa base:
+- original gift
+- original duped boat
+- kitty
+- map room
+--- Page 2 ---
+- chickens
+- doggo
+===================ProkeĹˇ spawn base:
+- 3 kitties
+- 4 horses
+- 5 villagers
+===================Others:
+- 1/2 of the plains sheep
+
+        some items were artificially restored
+=====================================
+Book "(None)" by None
+(content hash = 3608909616583099931)
+Found 1x minecraft:writable_book (item ID 1775, generation 0) in slot None of block entity minecraft:lectern at x:995, y:72, z:-219
+
+--- Page 0 ---
+   Lanreee museum
+===================
+Welcome, its still WIP
+-------------------
+work opportunity:
+-enhance the lighting and or decoration
+-donate valuables
+2do:
+-metro station
+-library with all of the written books
+-farms?
+-ff2enh. dchandelier
+--- Page 1 ---
+-outside garden with a fountain
+-guest room
+-vault?
+
+-pigman shrine
+--- Page 2 ---
+big thank to Ejdm for the donation of many books
+=====================================
+Book "Lanreee Era I." by Firetrash42
+(content hash = 7545704810457532461)
+Found 1x minecraft:written_book (item ID 1776, generation 1) in slot None of block entity minecraft:lectern at x:993, y:67, z:-219
+Found 1x minecraft:written_book (item ID 1777, generation 1) in slot 1 of block entity minecraft:chest at x:1008, y:66, z:-239
+
+--- Page 0 ---
+  History of Lanree
+===================
+14/03/20
+-------------------
+Started as lanpartyyyyy at aternos
+by Prokes & Jarek
+-------------------
+Crack den founded by Jarek
+-------------------
+15/03/20
+Adam & Alexa joined
+--- Page 1 ---
+-------------------
+Skeleton outpost founded by Jarek
+-------------------
+Maxa joined
+-------------------
+16/03/20
+Discord server started by Ejdm
+-------------------Alesh & Sam joined
+-------------------Alesh cucked in shed
+--- Page 2 ---
+-------------------
+17/03/20
+Rail duper got gotten
+-------------------
+18/03/20
+Scum's retreat founded by Jarek
+-------------------22/03/20
+Pleasure HQ founded by Jarek
+-------------------
+--- Page 3 ---
+24/03/20
+First Alexa map of the immediate area made
+-------------------
+25/03/20
+Pleasure island iron farm founded by Jarek
+-------------------
+26/03/20
+Last time played on aternos
+-------------------
+--- Page 4 ---
+27/03/20
+Minehut server launched
+-------------------28/03/20
+Endermen farm founded by Ejdm & Majksa
+-------------------
+29/03/20
+Automated brewer created under Pleasure HQ by Jarek
+--- Page 5 ---
+-------------------
+02/04/20
+Ice highway to the endportal built by ProkeĹˇ
+-------------------
+04/04/20
+Beacon erected in the nether by Jarek
+-------------------
+06/04/20
+Cobble farm started by Ejdm & Jarek
+
+--- Page 6 ---
+-------------------
+07/04/20
+Mesa outpost founded by ProkeĹˇ
+-------------------
+14/04/20
+Alexa recieved a Gift from Jarek
+-------------------
+19/04/20
+Alexa's Hellscape finished
+-------------------
+--- Page 7 ---
+20/04/20
+Two shroom islands found separately by Jarek & prokeĹˇ
+-------------------
+Big f#cking hole dug by Jarek & ProkeĹˇ
+-------------------
+21/04/20
+Zmrdex couple found in the nether
+-------------------
+
+--- Page 8 ---
+22/04/20
+Swomp shed founded by Alexa
+-------------------
+Cobblefarm finished
+-------------------
+23/04/20
+Concrete duper built by Ejdm
+-------------------
+Life is pain sign erected in the nether by Jarek
+------------------
+--- Page 9 ---
+29/04/20
+Server duped a boat somehow
+-------------------
+30/04/20
+Alexa map finished
+-------------------The Cataclysm happened
+===================
+
+
+Data compiled by Jarek
+=====================================
+Book "(None)" by None
+(content hash = 4518480476038139116)
+Found 1x minecraft:writable_book (item ID 1778, generation 0) in slot 6 of block entity minecraft:chest at x:1008, y:66, z:-239
+
+--- Page 0 ---
+e
