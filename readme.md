@@ -27,7 +27,7 @@ Mc Book Publisher creates an interactive visulisation of minecraft books on the 
 ```
 ## Demo
 
-You can see the script in action [here](http://lanreee.wz.cz/#books)
+You can see the script in action [here](https://jarekt.github.io/mc-book-publisher/)
 
 https://user-images.githubusercontent.com/42780718/143109114-0ab21d19-b04d-4ae1-a4f6-3f2f0be9ee0c.mp4
 
