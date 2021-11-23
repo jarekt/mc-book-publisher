@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>mc-book-publisher demo</title>
+    <link rel='icon' type='image/png' href='/favicon.png'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/jarekt/mc-book-publisher@1.0.2/src/bookPublisher.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/jarekt/mc-book-publisher@1.0.2/src/bookPublisher.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+    <h1>Mc-Book-Publisher <br><small>Demo</small></h1>
+    <img src="https://img.shields.io/jsdelivr/gh/hm/jarekt/mc-book-publisher">
+    <img src="https://img.shields.io/jsdelivr/gh/hy/jarekt/mc-book-publisher">
+    <img src="https://img.shields.io/github/license/jarekt/mc-book-publisher">
+    <img src="https://img.shields.io/github/issues/jarekt/mc-book-publisher">
+    <a href="https://discord.gg/2uYF7qG"><img src="https://img.shields.io/badge/chat-on%20discord-%237289da"></a>
+
+    <ul>
+        <li><a href="https://github.com/jarekt/mc-book-publisher">github</a></li>
+    </ul>
+
+    This demo page contains sample mc-book-publisher output generated from a small SMP server that I had with my friends some time in 2020 (you can find the world download and such here: <a href="http://lanreee.wz.cz/">http://lanreee.wz.cz/</a>)
+    <hr>
+    <script>
+        new McBookPublisher({
+            id: "BookView1", //each instance must have a unique id
+            source: "booksFinal.txt", //point to the file you generated with mc-world-miner
+        }).init();
+    </script>
+    </div>
+    
+</body>
+</html>
