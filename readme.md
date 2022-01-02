@@ -12,8 +12,8 @@ Mc Book Publisher creates an interactive visualisation of minecraft books on the
 2. Include JS & CSS (put his in the head of your html file)  
     * ⚠️ to update from an older version just change the version tag behind the `@` symbol to your desired version
 ```html
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/jarekt/mc-book-publisher@1.0.2/src/bookPublisher.min.css">
-    <script src="https://cdn.jsdelivr.net/gh/jarekt/mc-book-publisher@1.0.2/src/bookPublisher.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/jarekt/mc-book-publisher@1.0.3/src/bookPublisher.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/jarekt/mc-book-publisher@1.0.3/src/bookPublisher.min.js"></script>
 ```
 
 3. Initialize the script
@@ -35,11 +35,10 @@ https://user-images.githubusercontent.com/42780718/143109114-0ab21d19-b04d-4ae1-
 This work is licensed under the MIT license with the exception of the contents of the `imgs` and `fonts` folders.
 
 ## 2DO
-- [ ] make error handling more consistent
 - [ ] add & display book locations
 - [x] add demo
 - [x] add a parser for Neurochitin's mc-world-miner
 
 ## Known Issues
 - bad line wrapping that occours from time to time (is this even possible to fix? this arises directly from how fonts are rendered differently in the web browser than in minecraft)
-- font appearing blurry when `margin: auto` is used at certain resolutions (this cannot be fixed unless we use some sort of crazy js hack that would center the div less precisely than css does) + it's not even particularly noticable
+- ~~font appearing blurry when `margin: auto` is used at certain resolutions (this cannot be fixed unless we use some sort of crazy js hack that would center the div less precisely than css does) + it's not even particularly noticable~~ (fixed in [1.0.3](https://github.com/jarekt/mc-book-publisher/releases/tag/1.0.3))

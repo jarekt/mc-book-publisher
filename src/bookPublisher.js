@@ -20,19 +20,21 @@ class McBookPublisher
     {
         if (!!document.getElementById(options.id)) {
             console.error("ID in use already, choose a different one");
-            return;
+            return
         }
         if (! options.source.endsWith('.txt'))
         {
             console.error("Unsupported filetype");
-            return;
+            return
         }
     
         this.id = options.id;
         this.src = options.source;
         this.bLocations = options.displayLocations; // TODO: implment
         this.books = [];
-        this.thisScript = document.currentScript // reference to the current script for building the html
+        this.thisScript = document.currentScript; // reference to the current script for building the html
+        this.xOffset = 0;
+        this.yOffset = 0;
     }
 
 
@@ -54,6 +56,12 @@ class McBookPublisher
         {
             this.mcWorldMinerParse(text);
             this.buildHtml();
+
+            let toAdjust = document.getElementById(this.id).getElementsByClassName('mcBook');
+            let thisInstance = this;
+
+            this.adjustCoord(toAdjust);
+            window.addEventListener('resize', function () {thisInstance.adjustCoord(toAdjust)})
         })
         .catch(error => console.error(error));
     }
@@ -101,7 +109,7 @@ class McBookPublisher
         /**
          * Checks parsing pointer for overflow
          */
-        var pOverflow = function()
+        var pOverflow = function ()
         {
             if (p >= text.length)
             {
@@ -281,5 +289,18 @@ class McBookPublisher
 
         btnNext.style['display'] = book.pagePointer == book.pages.length
                                  ? 'none' : 'block';
+    }
+
+    /**
+     * Fixes blurry text rendering when subpixel badness happens
+     */
+    adjustCoord(elements)
+    {
+        this.xOffset = (1 - ((elements[0].getBoundingClientRect().x - this.xOffset) % 1)) % 1;
+        this.yOffset = (1 - ((elements[0].getBoundingClientRect().y - this.yOffset) % 1)) % 1;
+
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].style.setProperty('transform', `translate(${this.xOffset}px, ${this.yOffset}px)`);
+        }
     }
 }
