@@ -1,21 +1,16 @@
 @charset "UTF-8";
 
+/* general rules */
 .mcBook {
     font-family: 'F77 Minecraft';
     font-style: normal;
     font-display: swap;
-    font-size: 24px;
-    line-height: 27px;
     word-break: break-word;
     color: black;
     position: relative;
-    width: 342px;
-    height: 459px;
-    padding: 45px 48px 36px 48px;
-    margin: 0px 0px 20px 0px;
     background-image:url("../imgs/book.png");
+    background-size: 100%;
     white-space: pre-wrap;
-    word-spacing: 3px;
     letter-spacing: normal;
     image-rendering: pixelated;
     font-smooth: never; /* non standard */
@@ -24,35 +19,31 @@
 .mcBookHeader {
     display: block;
     text-align: right;
-    margin-bottom: 18px;
     user-select: none;
 }
 .mcBookFooter {
     position: absolute;
-    bottom: 36px;
-    width: 273px;
-    margin-left: 30px;
     user-select: none;
 }
 .mcBookNext {
     background-image: url("../imgs/next.png");
-    width: 54px;
-    height: 30px;
+    background-size: 100%;
     float: right;
     display: block;
 }
 .mcBookNext:hover {
     background-image: url("../imgs/nexthl.png");
+    background-size: 100%;
 }
 .mcBookBack {
     background-image: url("../imgs/back.png");
-    width: 54px;
-    height: 30px;
+    background-size: 100%;
     float: left;
     display: block;
 }
 .mcBookBack:hover {
     background-image: url("../imgs/backhl.png");
+    background-size: 100%;
 }
 .mcBookAuthor {
     color: #545454;
@@ -71,4 +62,60 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+/* base size rules */
+.mcBook {
+    font-size: 24px;
+    line-height: 27px;
+    width: 342px;
+    height: 459px;
+    padding: 45px 48px 36px 48px;
+    margin: 0px 0px 20px 0px;
+    word-spacing: 3px;
+}
+.mcBookHeader {
+    margin-bottom: 18px;
+}
+.mcBookFooter {
+    bottom: 36px;
+    width: 273px;
+    margin-left: 30px;
+}
+.mcBookNext {
+    width: 54px;
+    height: 30px;
+}
+.mcBookBack {
+    width: 54px;
+    height: 30px;
+}
+
+/* small screen rules */
+@media (max-width: 437px) {
+    .mcBook {
+        font-size: 16px;
+        line-height: 18px;
+        width: 228px;
+        height: 306px;
+        padding: 30px 32px 24px 32px;
+        margin: 0px 0px 1em 0px;
+        word-spacing: 2px;
+    }
+    .mcBookHeader {
+        margin-bottom: 12px;
+    }
+    .mcBookFooter {
+        bottom: 24px;
+        width: 182px;
+        margin-left: 20px;
+    }
+    .mcBookNext {
+        width: 36px;
+        height: 20px;
+    }
+    .mcBookBack {
+        width: 36px;
+        height: 20px;
+    }
 }
