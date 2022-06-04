@@ -5,7 +5,8 @@
     font-family: 'F77 Minecraft';
     font-style: normal;
     font-display: swap;
-    word-break: break-word;
+    word-break: normal;
+    overflow-wrap: break-word;
     color: black;
     position: relative;
     background-image:url("../imgs/book.png");
