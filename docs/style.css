@@ -9,11 +9,11 @@ body {
     margin: 0px auto 20px auto;
 }
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     border-bottom: 1px solid;
 }
-small {
-    font-size: 3rem;
+h1 > small {
+    font-size: 2rem;
 }
 ul {
     font-size: 1.5rem;
