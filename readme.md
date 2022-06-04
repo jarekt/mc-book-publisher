@@ -26,9 +26,14 @@ Mc Book Publisher creates an interactive visualisation of minecraft books on the
 ```
 ## Demo
 
-You can see the script in action [here](https://jarekt.github.io/mc-book-publisher/)
+### Demo page
+<https://jarekt.github.io/mc-book-publisher/>
 
-https://user-images.githubusercontent.com/42780718/143109114-0ab21d19-b04d-4ae1-a4f6-3f2f0be9ee0c.mp4
+### Desktop vid
+https://user-images.githubusercontent.com/42780718/171999483-d6e2274d-a0ab-414c-ad32-ac823c0ded7b.mp4
+
+### Mobile vid
+https://user-images.githubusercontent.com/42780718/171999489-46fa97a1-a851-4795-9958-35fb69a5ec21.mp4
 
 ## License
 This work is licensed under the MIT license with the exception of the contents of the `imgs` and `fonts` folders.
