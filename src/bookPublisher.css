@@ -1,14 +1,16 @@
+@charset "UTF-8";
+
 .mcBook {
     font-family: 'F77 Minecraft';
     font-style: normal;
     font-display: swap;
-    font-size:24px;
+    font-size: 24px;
     line-height: 27px;
-    word-break:break-word;
-    color:black;
+    word-break: break-word;
+    color: black;
     position: relative;
-    width:342px;
-    height:459px;
+    width: 342px;
+    height: 459px;
     padding: 45px 48px 36px 48px;
     margin: 0px 0px 20px 0px;
     background-image:url("../imgs/book.png");
@@ -33,24 +35,24 @@
     user-select: none;
 }
 .mcBookNext {
-    background-image:url("../imgs/next.png");
+    background-image: url("../imgs/next.png");
     width: 54px;
     height: 30px;
     float: right;
     display: block;
 }
 .mcBookNext:hover {
-    background-image:url("../imgs/nexthl.png");
+    background-image: url("../imgs/nexthl.png");
 }
 .mcBookBack {
-    background-image:url("../imgs/back.png");
+    background-image: url("../imgs/back.png");
     width: 54px;
     height: 30px;
     float: left;
     display: block;
 }
 .mcBookBack:hover {
-    background-image:url("../imgs/backhl.png");
+    background-image: url("../imgs/backhl.png");
 }
 .mcBookAuthor {
     color: #545454;
