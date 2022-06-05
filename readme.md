@@ -9,7 +9,7 @@ Mc Book Publisher creates an interactive visualisation of minecraft books on the
 
 ## Usage
 1. Extract the books from your minecraft world using [Neurochitin's minecraft data miner](https://gitlab.com/Neurochitin/mc-world-miner)
-2. Include JS & CSS (put his in the head of your html file)
+2. Include JS & CSS (put this in the head of your html file)
 ```html
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/jarekt/mc-book-publisher@latest/src/bookPublisher.min.css">
     <script src="https://cdn.jsdelivr.net/gh/jarekt/mc-book-publisher@latest/src/bookPublisher.min.js"></script>
