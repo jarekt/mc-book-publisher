@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/42780718/171999483-d6e2274d-a0ab-414c-
 https://user-images.githubusercontent.com/42780718/171999489-46fa97a1-a851-4795-9958-35fb69a5ec21.mp4
 
 ## License
-This work is licensed under the MIT license with the exception of the contents of the `imgs` and `fonts` folders.
+This work is licensed under the MIT license with the exception of the graphical assets - mainly the `imgs` and `fonts` folders.
 
 ## 2DO
 - [ ] add & display book locations
