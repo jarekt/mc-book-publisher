@@ -4,6 +4,8 @@
 [![GitHub license](https://img.shields.io/github/license/jarekt/mc-book-publisher)](https://github.com/jarekt/mc-book-publisher/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/jarekt/mc-book-publisher)](https://github.com/jarekt/mc-book-publisher/issues)
 [![Join discord](https://img.shields.io/badge/chat-on%20discord-%237289da)](https://discord.gg/2uYF7qG)
+[![Casual Maintenance Intended](https://casuallymaintained.tech/badge.svg)](https://casuallymaintained.tech/)
+
 
 Mc Book Publisher creates an interactive visualisation of minecraft books on the web using javascript. 
 
